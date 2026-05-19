@@ -1,2 +1,0 @@
-[console_scripts]
-pivotwise = pivotwise.cli:main
