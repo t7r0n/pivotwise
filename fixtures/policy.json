@@ -1,0 +1,18 @@
+{
+  "company": "Social Links",
+  "repo": "pivotwise",
+  "metrics": [
+    "social_coverage",
+    "links_risk",
+    "crimewall_precision",
+    "headlines_latency"
+  ],
+  "failure_modes": [
+    "social_drift",
+    "links_gap",
+    "crimewall_misroute",
+    "headlines_blindspot"
+  ],
+  "minimum_cases": 144,
+  "requires_evidence_markers": true
+}

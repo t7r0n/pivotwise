@@ -1,0 +1,56 @@
+{
+  "company": "Social Links",
+  "company_slug": "social-links",
+  "repo": "pivotwise",
+  "package": "pivotwise",
+  "cli": "pivotwise",
+  "title": "Pivotwise",
+  "problem": "Social Links' own Crimewall page headlines \"AI powered link analysis and automation.\" Under the marketing, the actual AI moments inside an investigation today are mostly classifier level (image recognition, sentiment, OCR) - not the agentic layer that decides which of the 1,500 methods to fire next given a partially built graph. The YouTube tutorials walk human analysts through pivot heuristics one by one; that institutional knowledge does not live in the product.",
+  "direction": "A pivot planner agent for the Social Links API - given a partial investigation graph, it ranks the next 5 highest yield transform invocations by expected information gain, with a Spanish/Portuguese native UI for LATAM channel partners.",
+  "why": "Picking the bottleneck that matches the contact's role. This is for Stella - a partnerships lead - so the pitch is a channel enablement asset, not an engineering hire. The demo is a Spanish language Loom on a LATAM case. The judgment is reading the lead correctly.",
+  "terms": [
+    "social",
+    "links",
+    "crimewall",
+    "headlines",
+    "powered",
+    "analysis",
+    "automation",
+    "under",
+    "marketing",
+    "actual",
+    "moments",
+    "inside",
+    "investigation",
+    "today",
+    "mostly",
+    "classifier",
+    "level",
+    "image"
+  ],
+  "metrics": [
+    "social_coverage",
+    "links_risk",
+    "crimewall_precision",
+    "headlines_latency"
+  ],
+  "failure_modes": [
+    "social_drift",
+    "links_gap",
+    "crimewall_misroute",
+    "headlines_blindspot"
+  ],
+  "sources": [
+    "https://sociallinks.io/products/sl-crimewall",
+    "https://sociallinks.io/products/sl-professional",
+    "https://sociallinks.io/products/sl-private-platform",
+    "https://sociallinks.io/channel-partner-program",
+    "https://github.com/SocialLinks-IO",
+    "https://github.com/SocialLinks-IO/telegram-similar-channels",
+    "https://github.com/SocialLinks-IO/sociallinks-api",
+    "https://www.maltego.com/transform-hub/social-links-pro/",
+    "https://docs.maltego.com/en/support/solutions/articles/15000054072-social-links-pro",
+    "https://www.youtube.com/playlist?list=PL7DhkxY3DMy17SBblDHSzU0j5rRJ36iQW"
+  ],
+  "github_url": "https://github.com/t7r0n/pivotwise"
+}
