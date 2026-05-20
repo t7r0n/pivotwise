@@ -1,6 +1,6 @@
 # Operator Brief: Social Links
 
-Social Links gets a local, deterministic pressure test around social, links, and crimewall. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action.
+Social Links gets a local, deterministic pressure test around social, links, and crimewall. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
