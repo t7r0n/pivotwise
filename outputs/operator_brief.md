@@ -1,13 +1,13 @@
-# Operator Brief: Social Links
+# Operator Brief: Pivotwise
 
-Social Links gets a local, deterministic pressure test around social, links, and crimewall. The useful part is the repeatable evidence path from fixture to failure to operator action.
+This local harness runs a deterministic pressure test around evidence, workflow, and review. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
-- social evidence replay -> block release until cited evidence is regenerated (social_coverage, evidence ev_0044).
-- headlines operator packet -> accept only if decision claims cite fixture evidence (links_risk, evidence ev_0011).
-- crimewall regression harness -> open a regression issue with trace and benchmark delta (crimewall_precision, evidence ev_0110).
-- links boundary probe -> route to reviewer with evidence packet (headlines_latency, evidence ev_0121).
+- evidence replay -> block release until cited evidence is regenerated (evidence_coverage, evidence ev_0088).
+- review operator packet -> accept only if decision claims cite fixture evidence (handoff_risk, evidence ev_0055).
+- claim regression harness -> open a regression issue with trace and benchmark delta (claim_precision, evidence ev_0110).
+- handoff boundary probe -> route to reviewer with evidence packet (review_latency, evidence ev_0077).
 
 ## What makes this useful
 

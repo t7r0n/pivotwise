@@ -6,15 +6,15 @@ from pathlib import Path
 from typing import Any
 
 
-COMPANY = 'Social Links'
+COMPANY = 'Pivotwise'
 REPO = 'pivotwise'
-PROJECT_TERMS = ['social', 'links', 'crimewall', 'headlines', 'powered', 'analysis', 'automation', 'under']
-PROJECT_METRICS = ['social_coverage', 'links_risk', 'crimewall_precision', 'headlines_latency']
-PROJECT_FAILURES = ['social_drift', 'links_gap', 'crimewall_misroute', 'headlines_blindspot']
-PROJECT_ARCHETYPES = [{'name': 'social evidence replay', 'trigger': 'social signal changes while links context is stale', 'expected': 'block release until cited evidence is regenerated'}, {'name': 'links boundary probe', 'trigger': 'links handoff crosses a policy or trust boundary', 'expected': 'route to reviewer with evidence packet'}, {'name': 'crimewall regression harness', 'trigger': 'crimewall behavior regresses against the last accepted fixture', 'expected': 'open a regression issue with trace and benchmark delta'}, {'name': 'headlines operator packet', 'trigger': 'headlines output needs a human-readable audit packet', 'expected': 'accept only if decision claims cite fixture evidence'}]
-PROJECT_DIRECTION = 'A pivot planner agent for the Social Links API — given a partial investigation graph, it ranks the next 5 highest yield transform invocations by expected information gain, with a Spanish/Portuguese native UI for LATAM channel partners.'
+PROJECT_TERMS = ['evidence', 'workflow', 'review', 'claims', 'fixtures', 'replay', 'handoff', 'trace', 'policy', 'decision', 'coverage', 'latency']
+PROJECT_METRICS = ['evidence_coverage', 'handoff_risk', 'claim_precision', 'review_latency']
+PROJECT_FAILURES = ['evidence_drift', 'handoff_gap', 'claim_misroute', 'review_blindspot']
+PROJECT_ARCHETYPES = [{'name': 'evidence replay', 'trigger': 'source evidence changes while workflow context is stale', 'expected': 'block release until cited evidence is regenerated'}, {'name': 'handoff boundary probe', 'trigger': 'handoff crosses a policy or trust boundary', 'expected': 'route to reviewer with evidence packet'}, {'name': 'claim regression harness', 'trigger': 'claim behavior regresses against the last accepted fixture', 'expected': 'open a regression issue with trace and benchmark delta'}, {'name': 'review operator packet', 'trigger': 'review output needs a human-readable audit packet', 'expected': 'accept only if decision claims cite fixture evidence'}]
+PROJECT_DIRECTION = 'A pivot planner agent for the Pivotwise API - given a partial investigation graph, it ranks the next 5 highest yield transform invocations by expected information gain, with a Spanish/Portuguese native UI for LATAM channel partners.'
 VISUAL_THEME = {'name': 'agent security', 'bg': '#f7f8fb', 'ink': '#111827', 'muted': '#475569', 'border': '#d8e1ec', 'a': '#2563eb', 'b': '#0891b2', 'c': '#7c3aed', 'd': '#dc2626', 'soft_a': '#eff6ff', 'soft_b': '#ecfeff', 'soft_c': '#f5f3ff', 'soft_d': '#fef2f2', 'hero': 'Adversarial Replay Board', 'left': 'runtime probes with evidence', 'right': 'release gates under attack', 'chain': 'attack-to-action chain', 'lane': 'probe', 'gate': 'guard failure', 'action': 'release action'}
-HERO_TITLE = 'Social Links Adversarial Replay Board'
+HERO_TITLE = 'Pivotwise'
 
 
 def _short(value: str, limit: int = 44) -> str:
@@ -107,7 +107,7 @@ def build_signal_model(rows: list[dict[str, Any]], clusters: list[dict[str, Any]
         "review_share": round(review / total, 4),
         "top_leverage_points": leverage,
         "readout": (
-            f"{COMPANY} gets a local, deterministic pressure test around "
+            "This local harness runs a deterministic pressure test around "
             f"{PROJECT_TERMS[0]}, {PROJECT_TERMS[1]}, and {PROJECT_TERMS[2]}. "
             "The useful part is the repeatable evidence path from fixture "
             "to failure to operator action."

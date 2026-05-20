@@ -1,68 +1,57 @@
 {
   "repo": "pivotwise",
-  "company": "Social Links",
+  "company": "Pivotwise",
   "rubric_axes": [
     {
-      "axis": "social_coverage",
+      "axis": "evidence_coverage",
       "failures": [
-        "social_drift"
+        "evidence_drift"
       ],
       "evidence_required": true
     },
     {
-      "axis": "links_risk",
+      "axis": "handoff_risk",
       "failures": [
-        "links_gap"
+        "handoff_gap"
       ],
       "evidence_required": true
     },
     {
-      "axis": "crimewall_precision",
+      "axis": "claim_precision",
       "failures": [
-        "crimewall_misroute"
+        "claim_misroute"
       ],
       "evidence_required": true
     },
     {
-      "axis": "headlines_latency",
+      "axis": "review_latency",
       "failures": [
-        "headlines_blindspot"
+        "review_blindspot"
       ],
       "evidence_required": true
     }
   ],
   "archetypes": [
     {
-      "name": "social evidence replay",
-      "trigger": "social signal changes while links context is stale",
+      "name": "evidence replay",
+      "trigger": "source evidence changes while workflow context is stale",
       "expected": "block release until cited evidence is regenerated"
     },
     {
-      "name": "links boundary probe",
-      "trigger": "links handoff crosses a policy or trust boundary",
+      "name": "handoff boundary probe",
+      "trigger": "handoff crosses a policy or trust boundary",
       "expected": "route to reviewer with evidence packet"
     },
     {
-      "name": "crimewall regression harness",
-      "trigger": "crimewall behavior regresses against the last accepted fixture",
+      "name": "claim regression harness",
+      "trigger": "claim behavior regresses against the last accepted fixture",
       "expected": "open a regression issue with trace and benchmark delta"
     },
     {
-      "name": "headlines operator packet",
-      "trigger": "headlines output needs a human-readable audit packet",
+      "name": "review operator packet",
+      "trigger": "review output needs a human-readable audit packet",
       "expected": "accept only if decision claims cite fixture evidence"
     }
   ],
-  "sources_used": [
-    "https://sociallinks.io/products/sl-crimewall",
-    "https://sociallinks.io/products/sl-professional",
-    "https://sociallinks.io/products/sl-private-platform",
-    "https://sociallinks.io/channel-partner-program",
-    "https://github.com/SocialLinks-IO",
-    "https://github.com/SocialLinks-IO/telegram-similar-channels",
-    "https://github.com/SocialLinks-IO/sociallinks-api",
-    "https://www.maltego.com/transform-hub/social-links-pro/",
-    "https://docs.maltego.com/en/support/solutions/articles/15000054072-social-links-pro",
-    "https://www.youtube.com/playlist?list=PL7DhkxY3DMy17SBblDHSzU0j5rRJ36iQW"
-  ]
+  "sources_used": []
 }

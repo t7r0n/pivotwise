@@ -1,7 +1,7 @@
 [project]
 name = "pivotwise"
 version = "0.1.0"
-description = "A pivot planner agent for the Social Links API - given a partial investigation graph, it ranks the next 5 highest yield transform invocation"
+description = "A pivot planner agent for the Pivotwise API - given a partial investigation graph, it ranks the next 5 highest yield tra"
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [
