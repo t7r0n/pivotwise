@@ -40,6 +40,28 @@
     "crimewall_misroute",
     "headlines_blindspot"
   ],
+  "archetypes": [
+    {
+      "name": "social evidence replay",
+      "trigger": "social signal changes while links context is stale",
+      "expected": "block release until cited evidence is regenerated"
+    },
+    {
+      "name": "links boundary probe",
+      "trigger": "links handoff crosses a policy or trust boundary",
+      "expected": "route to reviewer with evidence packet"
+    },
+    {
+      "name": "crimewall regression harness",
+      "trigger": "crimewall behavior regresses against the last accepted fixture",
+      "expected": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "name": "headlines operator packet",
+      "trigger": "headlines output needs a human-readable audit packet",
+      "expected": "accept only if decision claims cite fixture evidence"
+    }
+  ],
   "sources": [
     "https://sociallinks.io/products/sl-crimewall",
     "https://sociallinks.io/products/sl-professional",

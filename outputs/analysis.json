@@ -9,74 +9,54 @@
   },
   "clusters": [
     {
-      "scenario": "crimewall failure replay",
-      "cases": 24,
-      "blocks": 2,
+      "scenario": "crimewall regression harness",
+      "cases": 36,
+      "blocks": 3,
+      "reviews": 5,
+      "mean_severity": 2.528,
+      "mean_score": 0.4017,
+      "top_evidence_id": "ev_0110",
+      "recommended_action": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "scenario": "headlines operator packet",
+      "cases": 36,
+      "blocks": 4,
+      "reviews": 5,
+      "mean_severity": 2.556,
+      "mean_score": 0.391,
+      "top_evidence_id": "ev_0011",
+      "recommended_action": "accept only if decision claims cite fixture evidence"
+    },
+    {
+      "scenario": "links boundary probe",
+      "cases": 36,
+      "blocks": 3,
       "reviews": 4,
-      "mean_severity": 3.333,
-      "mean_score": 0.5003,
+      "mean_severity": 2.528,
+      "mean_score": 0.3984,
+      "top_evidence_id": "ev_0121",
+      "recommended_action": "route to reviewer with evidence packet"
+    },
+    {
+      "scenario": "social evidence replay",
+      "cases": 36,
+      "blocks": 4,
+      "reviews": 5,
+      "mean_severity": 2.611,
+      "mean_score": 0.4106,
       "top_evidence_id": "ev_0044",
-      "recommended_action": "block release until replay is understood"
-    },
-    {
-      "scenario": "headlines policy boundary",
-      "cases": 24,
-      "blocks": 2,
-      "reviews": 3,
-      "mean_severity": 1.708,
-      "mean_score": 0.2567,
-      "top_evidence_id": "ev_0033",
-      "recommended_action": "block release until replay is understood"
-    },
-    {
-      "scenario": "links gap",
-      "cases": 24,
-      "blocks": 3,
-      "reviews": 2,
-      "mean_severity": 3.333,
-      "mean_score": 0.5111,
-      "top_evidence_id": "ev_0077",
-      "recommended_action": "block release until replay is understood"
-    },
-    {
-      "scenario": "links reviewer handoff",
-      "cases": 24,
-      "blocks": 2,
-      "reviews": 4,
-      "mean_severity": 2.583,
-      "mean_score": 0.397,
-      "top_evidence_id": "ev_0055",
-      "recommended_action": "block release until replay is understood"
-    },
-    {
-      "scenario": "social drift",
-      "cases": 24,
-      "blocks": 2,
-      "reviews": 3,
-      "mean_severity": 2.5,
-      "mean_score": 0.3937,
-      "top_evidence_id": "ev_0088",
-      "recommended_action": "block release until replay is understood"
-    },
-    {
-      "scenario": "social evidence recall",
-      "cases": 24,
-      "blocks": 3,
-      "reviews": 3,
-      "mean_severity": 1.875,
-      "mean_score": 0.2967,
-      "top_evidence_id": "ev_0066",
-      "recommended_action": "block release until replay is understood"
+      "recommended_action": "block release until cited evidence is regenerated"
     }
   ],
   "highest_risk": {
-    "scenario": "links gap",
-    "cases": 24,
-    "blocks": 3,
-    "reviews": 2,
-    "mean_severity": 3.333,
-    "mean_score": 0.5111,
-    "top_evidence_id": "ev_0077",
-    "recommended_action": "block release until replay is understood"
+    "scenario": "social evidence replay",
+    "cases": 36,
+    "blocks": 4,
+    "reviews": 5,
+    "mean_severity": 2.611,
+    "mean_score": 0.4106,
+    "top_evidence_id": "ev_0044",
+    "recommended_action": "block release until cited evidence is regenerated"
   }
 }

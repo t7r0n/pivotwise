@@ -1,7 +1,5 @@
 scenario,cases,blocks,reviews,mean_severity,mean_score,top_evidence_id,recommended_action
-crimewall failure replay,24,2,4,3.333,0.5003,ev_0044,block release until replay is understood
-headlines policy boundary,24,2,3,1.708,0.2567,ev_0033,block release until replay is understood
-links gap,24,3,2,3.333,0.5111,ev_0077,block release until replay is understood
-links reviewer handoff,24,2,4,2.583,0.397,ev_0055,block release until replay is understood
-social drift,24,2,3,2.5,0.3937,ev_0088,block release until replay is understood
-social evidence recall,24,3,3,1.875,0.2967,ev_0066,block release until replay is understood
+crimewall regression harness,36,3,5,2.528,0.4017,ev_0110,open a regression issue with trace and benchmark delta
+headlines operator packet,36,4,5,2.556,0.391,ev_0011,accept only if decision claims cite fixture evidence
+links boundary probe,36,3,4,2.528,0.3984,ev_0121,route to reviewer with evidence packet
+social evidence replay,36,4,5,2.611,0.4106,ev_0044,block release until cited evidence is regenerated
