@@ -5,8 +5,8 @@
   "package": "pivotwise",
   "cli": "pivotwise",
   "title": "Pivotwise",
-  "problem": "Social Links' own Crimewall page headlines \"AI powered link analysis and automation.\" Under the marketing, the actual AI moments inside an investigation today are mostly classifier level (image recognition, sentiment, OCR) - not the agentic layer that decides which of the 1,500 methods to fire next given a partially built graph. The YouTube tutorials walk human analysts through pivot heuristics one by one; that institutional knowledge does not live in the product.",
-  "direction": "A pivot planner agent for the Social Links API - given a partial investigation graph, it ranks the next 5 highest yield transform invocations by expected information gain, with a Spanish/Portuguese native UI for LATAM channel partners.",
+  "problem": "Social Links' own Crimewall page headlines \"AI powered link analysis and automation.\" Under the marketing, the actual AI moments inside an investigation today are mostly classifier level (image recognition, sentiment, OCR) \u2014 not the agentic layer that decides which of the 1,500 methods to fire next given a partially built graph. The YouTube tutorials walk human analysts through pivot heuristics one by one; that institutional knowledge does not live in the product.",
+  "direction": "A pivot planner agent for the Social Links API \u2014 given a partial investigation graph, it ranks the next 5 highest yield transform invocations by expected information gain, with a Spanish/Portuguese native UI for LATAM channel partners.",
   "why": "Picking the bottleneck that matches the contact's role. This is for Stella - a partnerships lead - so the pitch is a channel enablement asset, not an engineering hire. The demo is a Spanish language Loom on a LATAM case. The judgment is reading the lead correctly.",
   "terms": [
     "social",

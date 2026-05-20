@@ -1,6 +1,6 @@
 # Decision Report: Pivotwise
 
-A pivot planner agent for the Social Links API - given a partial investigation graph, it ranks the next 5 highest yield transform invocations by expected information gain, with a Spanish/Portuguese native UI for LATAM channel partners.
+A pivot planner agent for the Social Links API — given a partial investigation graph, it ranks the next 5 highest yield transform invocations by expected information gain, with a Spanish/Portuguese native UI for LATAM channel partners.
 
 ## Evidence-Grounded Findings
 
