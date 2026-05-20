@@ -1,0 +1,59 @@
+{
+  "layers": [
+    {
+      "name": "synthetic_fixture_replay",
+      "purpose": "exercise social and links cases"
+    },
+    {
+      "name": "domain_strategy",
+      "purpose": "score social_coverage and links_risk"
+    },
+    {
+      "name": "evidence_lock",
+      "purpose": "reject narrative claims without fixture evidence IDs"
+    },
+    {
+      "name": "operator_packet",
+      "purpose": "emit dashboard, SVG readout, CSV, markdown report, and demo pack"
+    }
+  ],
+  "pressure_index": 0.3167,
+  "top_leverage_points": [
+    {
+      "rank": 1,
+      "scenario": "social evidence replay",
+      "metric": "social_coverage",
+      "failure_mode": "social_drift",
+      "evidence": "ev_0044",
+      "operator_action": "block release until cited evidence is regenerated",
+      "severity": 2.611
+    },
+    {
+      "rank": 2,
+      "scenario": "headlines operator packet",
+      "metric": "links_risk",
+      "failure_mode": "links_gap",
+      "evidence": "ev_0011",
+      "operator_action": "accept only if decision claims cite fixture evidence",
+      "severity": 2.556
+    },
+    {
+      "rank": 3,
+      "scenario": "crimewall regression harness",
+      "metric": "crimewall_precision",
+      "failure_mode": "crimewall_misroute",
+      "evidence": "ev_0110",
+      "operator_action": "open a regression issue with trace and benchmark delta",
+      "severity": 2.528
+    },
+    {
+      "rank": 4,
+      "scenario": "links boundary probe",
+      "metric": "headlines_latency",
+      "failure_mode": "headlines_blindspot",
+      "evidence": "ev_0121",
+      "operator_action": "route to reviewer with evidence packet",
+      "severity": 2.528
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "company": "Social Links",
+  "repo": "pivotwise",
+  "terms": [
+    "social",
+    "links",
+    "crimewall",
+    "headlines",
+    "powered",
+    "analysis",
+    "automation",
+    "under"
+  ],
+  "metrics": [
+    "social_coverage",
+    "links_risk",
+    "crimewall_precision",
+    "headlines_latency"
+  ],
+  "failure_modes": [
+    "social_drift",
+    "links_gap",
+    "crimewall_misroute",
+    "headlines_blindspot"
+  ],
+  "evidence_density": 18.75,
+  "pressure_index": 0.3167,
+  "blocked_share": 0.0972,
+  "review_share": 0.1319,
+  "top_leverage_points": [
+    {
+      "rank": 1,
+      "scenario": "social evidence replay",
+      "metric": "social_coverage",
+      "failure_mode": "social_drift",
+      "evidence": "ev_0044",
+      "operator_action": "block release until cited evidence is regenerated",
+      "severity": 2.611
+    },
+    {
+      "rank": 2,
+      "scenario": "headlines operator packet",
+      "metric": "links_risk",
+      "failure_mode": "links_gap",
+      "evidence": "ev_0011",
+      "operator_action": "accept only if decision claims cite fixture evidence",
+      "severity": 2.556
+    },
+    {
+      "rank": 3,
+      "scenario": "crimewall regression harness",
+      "metric": "crimewall_precision",
+      "failure_mode": "crimewall_misroute",
+      "evidence": "ev_0110",
+      "operator_action": "open a regression issue with trace and benchmark delta",
+      "severity": 2.528
+    },
+    {
+      "rank": 4,
+      "scenario": "links boundary probe",
+      "metric": "headlines_latency",
+      "failure_mode": "headlines_blindspot",
+      "evidence": "ev_0121",
+      "operator_action": "route to reviewer with evidence packet",
+      "severity": 2.528
+    }
+  ],
+  "readout": "Social Links gets a local, deterministic pressure test around social, links, and crimewall. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action."
+}
